@@ -1,4 +1,4 @@
-module go-litelibs
+module github.com/Halsy811/go-litelibs
 
 go 1.26.5
 
