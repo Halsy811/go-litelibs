@@ -127,6 +127,7 @@ func requestPassword(stdin *os.File, confirm bool) ([]byte, error) {
 			if err != nil {
 				break
 			}
+			fmt.Println("")
 
 			if string(pass) == string(repeatpass) {
 				return pass, nil
